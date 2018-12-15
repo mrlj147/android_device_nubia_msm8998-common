@@ -548,8 +548,8 @@ vendor/lib64/vendor.display.color@1.0_vendor.so
 vendor/lib64/vendor.display.postproc@1.0_vendor.so
 
 # QMI
-etc/permissions/qti_libpermissions.xml:vendor/etc/permissions/qti_libpermissions.xml
-etc/permissions/qti_permissions.xml:vendor/etc/permissions/qti_permissions.xml
+etc/permissions/qti_libpermissions.xml
+etc/permissions/qti_permissions.xml
 lib/libdiag_system.so
 lib64/libdiag_system.so
 vendor/bin/irsc_util
@@ -588,16 +588,16 @@ vendor/lib64/libqmiservices.so
 vendor/lib64/libsmemlog.so
 
 # Radio
--app/datastatusnotification/datastatusnotification.apk:vendor/app/datastatusnotification/datastatusnotification.apk
+-app/datastatusnotification/datastatusnotification.apk
 -app/embms/embms.apk
--app/QtiTelephonyService/QtiTelephonyService.apk:vendor/app/QtiTelephonyService/QtiTelephonyService.apk
+-app/QtiTelephonyService/QtiTelephonyService.apk
 etc/permissions/embms.xml
 etc/permissions/qcnvitems.xml
-etc/permissions/qcrilhook.xml:vendor/etc/permissions/qcrilhook.xml
+etc/permissions/qcrilhook.xml
 etc/permissions/telephonyservice.xml
 framework/embmslibrary.jar
 framework/qcnvitems.jar
-framework/qcrilhook.jar:vendor/framework/qcrilhook.jar
+framework/qcrilhook.jar
 framework/qti-telephony-common.jar
 framework/QtiTelephonyServicelibrary.jar
 -priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
@@ -647,7 +647,7 @@ vendor/radio/qcril_database/qcril.db
 -app/imssettings/imssettings.apk
 -app/uceShimService/uceShimService.apk
 etc/permissions/com.qualcomm.qti.imscmservice.xml
-etc/permissions/qti-vzw-ims-internal.xml:vendor/etc/permissions/qti-vzw-ims-internal.xml
+etc/permissions/qti-vzw-ims-internal.xml
 framework/com.qualcomm.qti.imscmservice@1.0-java.jar
 lib/com.qualcomm.qti.imscmservice@1.0.so
 lib/lib-imscamera.so
