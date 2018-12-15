@@ -34,6 +34,7 @@ vendor.audio.hw.aac.encoder=true
 vendor.fm.a2dp.conc.disabled=true
 vendor.audio.noisy.broadcast.delay=600
 vendor.audio.offload.pstimeout.secs=3
+persist.vendor.bt.a2dp_offload_cap=sbc-aptx-aptxhd-aac
 
 # Battery
 ro.cutoff_voltage_mv=3200
